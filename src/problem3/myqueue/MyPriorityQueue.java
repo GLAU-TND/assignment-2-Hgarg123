@@ -16,7 +16,12 @@ public class MyPriorityQueue {
         linkedList.addLast(student);
     }
 
+    public void dequeue() {
+        linkedList.deleteFirst();
+    }
 
 
-}
+
+
+
 }
