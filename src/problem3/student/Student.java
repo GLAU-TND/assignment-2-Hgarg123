@@ -1,4 +1,4 @@
-package problem3;
+package problem3.student;
 
 public class Student {
     private String name;
@@ -24,4 +24,9 @@ public class Student {
     public void setRollNo(int rollNo) {
         this.rollNo = rollNo;
     }
+
+    public String toString() {
+        return getName() + " " + getRollNo();
+    }
 }
+
