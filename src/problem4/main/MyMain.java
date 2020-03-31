@@ -21,6 +21,8 @@ public class MyMain {
         myBinarySearchTree.insert(30);
         myBinarySearchTree.insert(15);
 
-
+        myBinarySearchTree.preOrder(myBinarySearchTree.getRoot());
+        System.out.println("PreOrder successors of all the nodes");
+        myQueue.show();
     }
 }
