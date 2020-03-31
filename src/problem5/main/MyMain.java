@@ -18,7 +18,7 @@ public class MyMain {
 
         for (int i = 0; i < myCircularQueue.getSize() + 1; i++) {
             Student s = myCircularQueue.dequeue();
-            if (s.getRollNo() - s.getAppearingCount() != 0) {
+            if (s.getBackLog() - s.getAppearingCount() != 0) {
                 myCircularQueue.enqueue(s);
             }
         }
