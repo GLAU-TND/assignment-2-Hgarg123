@@ -32,5 +32,10 @@ public class MyLinedList {
         }
     }
 
+    public Node getFirst() {
+        return first;
+    }
+
+
 }
 
