@@ -12,4 +12,7 @@ public class MyBinarySearchTree {
 
     private TreeNode root;
 
-}
+    public void insert(int data) {
+
+
+    }
