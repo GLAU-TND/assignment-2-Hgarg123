@@ -6,5 +6,10 @@
  */
 package problem3.myqueue;
 
+import problem3.myLinkedList.MyLinkedList;
+
 public class MyPriorityQueue {
+    public static void main(String[] args) {
+        MyLinkedList linkedList = new MyLinkedList();
+    }
 }
