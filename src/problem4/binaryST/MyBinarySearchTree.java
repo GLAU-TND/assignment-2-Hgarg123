@@ -54,6 +54,8 @@ public class MyBinarySearchTree {
         }
     }
 
+    public void inOrder(TreeNode temp) {
+
 
     }
 
