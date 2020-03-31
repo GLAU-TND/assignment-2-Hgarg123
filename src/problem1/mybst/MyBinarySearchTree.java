@@ -61,4 +61,8 @@ public class MyBinarySearchTree {
         }
     }
 
+    public int getCountRight() {
+        return countRight;
+    }
+
             }
