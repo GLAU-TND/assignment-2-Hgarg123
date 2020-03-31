@@ -23,6 +23,11 @@ public class MyMain {
         myBinarySearchTree.insert(55);
         myBinarySearchTree.insert(60);
 
+        myBinarySearchTree.preOrder(myBinarySearchTree.getRoot());
+        System.out.println("PreOrder:");
+        preQueue.show();
+        System.out.println("PostOrder:");
+        postQueue.show();
+        System.out.println();
     }
-
 }
