@@ -39,7 +39,14 @@ public class MyBinarySearchTree {
         return root;
     }
 
-}
+    public void setRoot(TreeNode root) {
+        this.root = root;
+    }
+
+    public void preOrder(TreeNode temp) {
+
+
+    }
 
 
     }
