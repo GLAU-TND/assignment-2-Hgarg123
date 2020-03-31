@@ -37,6 +37,30 @@ public class BinarySearchTree {
         }
     }
 
+    public MyQueue getPreQueue() {
+        return preQueue;
+    }
+
+    public void setPreQueue(MyQueue preQueue) {
+        this.preQueue = preQueue;
+    }
+
+    public MyQueue getPostQueue() {
+        return postQueue;
+    }
+
+    public void setPostQueue(MyQueue postQueue) {
+        this.postQueue = postQueue;
+    }
+
+    public TreeNode getRoot() {
+        return root;
+    }
+
+    public void setRoot(TreeNode root) {
+        this.root = root;
+    }
+
 
 
 
