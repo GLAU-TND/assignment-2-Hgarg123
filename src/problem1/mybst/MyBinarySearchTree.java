@@ -40,4 +40,14 @@ public class MyBinarySearchTree {
         return root;
     }
 
+    public void preOrder(TreeNode temp) {
+        if (temp == null) {
+            return;
+        } else {
+            System.out.println(temp.getData());
+            preOrder(temp.getLeft());
+            preOrder(temp.getRight());
+        }
+    }
+
             }
