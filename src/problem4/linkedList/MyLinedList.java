@@ -36,6 +36,15 @@ public class MyLinedList {
         return first;
     }
 
+    public void setFirst(Node first) {
+        this.first = first;
+    }
+
+    public Node getLast() {
+        return last;
+    }
+
+
 
 }
 
