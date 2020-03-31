@@ -22,5 +22,18 @@ public class MyBinarySearchTree {
             TreeNode parent = null;
             while (current != null) {
                 parent = current;
+                if (node.getData() < current.getData()) {
+                    current = current.getLeft();
+                } else {
+                    current = current.getRight();
+                }
+            }
+            if (node.getData() < parent.getData()) {
+                parent.setLeft(node);
+            } else {
+                parent.setRight(node);
+            }
+        }
+    }
 
             }
