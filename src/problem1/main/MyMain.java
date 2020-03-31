@@ -17,6 +17,8 @@ public class MyMain {
         binarySearchTree.insert(50);
         binarySearchTree.insert(55);
         binarySearchTree.insert(60);
+        System.out.println("Left children of the binary search tree: ");
+        binarySearchTree.traverse();
     }
 }
 
