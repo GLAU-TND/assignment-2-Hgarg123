@@ -14,6 +14,7 @@ public class BinarySearchTree {
         this.postQueue = postQueue;
     }
 
+    public void insert(int data) {
 
 
-}
+    }
