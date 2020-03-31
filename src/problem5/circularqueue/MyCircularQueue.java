@@ -33,4 +33,17 @@ public class MyCircularQueue {
             System.out.println("Queue is full.");
         }
     }
+
+    public Student dequeue() {
+        Student response = null;
+        if (!isEmpty()) {
+            size--;
+            response = circularQueue[front];
+            front = (front + 1) % maxSize;
+            return response;
+
+        } else {
+            return response;
+        }
+    }
 }
