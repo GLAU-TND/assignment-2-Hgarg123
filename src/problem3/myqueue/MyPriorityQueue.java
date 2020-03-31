@@ -23,9 +23,4 @@ public class MyPriorityQueue {
     public void show() {
         linkedList.display();
     }
-
-
-
-
-
 }
