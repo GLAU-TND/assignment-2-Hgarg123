@@ -20,7 +20,9 @@ public class MyMain {
         queue.enqueue(new Student("Samar", 1));
         queue.enqueue(new Student("Vibhu", 10));
         queue.enqueue(new Student("Shantanu", 76));
-
+        queue.show();
+        queue.dequeue();
+        queue.show();
 
     }
-}
+
