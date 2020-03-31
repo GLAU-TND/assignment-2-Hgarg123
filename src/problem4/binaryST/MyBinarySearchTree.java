@@ -44,6 +44,15 @@ public class MyBinarySearchTree {
     }
 
     public void preOrder(TreeNode temp) {
+        if (temp == null) {
+            return;
+        } else {
+
+            myQueue.enqueue(temp.getData());
+            preOrder(temp.getLeft());
+            preOrder(temp.getRight());
+        }
+    }
 
 
     }
