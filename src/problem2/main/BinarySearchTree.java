@@ -71,7 +71,15 @@ public class BinarySearchTree {
         }
     }
 
-
-
-
+    public void postOrder(TreeNode temp) {
+        if (temp == null) {
+            return;
+        } else {
+            postOrder(temp.getLeft());
+            postOrder(temp.getRight());
+            postQueue.enqueue(temp.getData());
+        }
     }
+
+
+}
