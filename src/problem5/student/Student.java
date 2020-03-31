@@ -11,6 +11,13 @@ public class Student {
     private String name;
     private int backLog;
     private int appearingCount;
-//    private int backLogCounter = backLog-appearingCount;
+
+    public Student(String name, int backLog, int appearingCount) {
+        this.appearingCount = appearingCount;
+        this.backLog = backLog;
+        this.name = name;
+    }
+
+
 
 }
