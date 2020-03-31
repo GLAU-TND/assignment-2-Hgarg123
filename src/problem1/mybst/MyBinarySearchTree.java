@@ -12,4 +12,10 @@ import problem1.node.TreeNode;
 public class MyBinarySearchTree {
     private TreeNode root;
     private int countRight;
+
+    public void insert(int data) {
+        TreeNode node = new TreeNode(data);
+        if (root == null) {
+            root = node;
+        }
 }
