@@ -20,6 +20,10 @@ public class MyPriorityQueue {
         linkedList.deleteFirst();
     }
 
+    public void show() {
+        linkedList.display();
+    }
+
 
 
 
