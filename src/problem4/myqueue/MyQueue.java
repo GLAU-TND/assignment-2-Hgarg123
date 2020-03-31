@@ -28,8 +28,8 @@ public class MyQueue {
         linkedList.deleteFirst();
     }
 
-
-
-
-
+    public void show() {
+        linkedList.display();
+    }
 }
+
