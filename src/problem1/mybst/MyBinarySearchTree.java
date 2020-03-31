@@ -17,5 +17,9 @@ public class MyBinarySearchTree {
         TreeNode node = new TreeNode(data);
         if (root == null) {
             root = node;
-        }
+        } else {
+            TreeNode current = root;
+            TreeNode parent = null;
+            while (current != null) {
+                parent = current;
 }
