@@ -104,4 +104,5 @@ public class MyCircularQueue {
     private boolean isFull() {
         return size == maxSize;
     }
+}
 
