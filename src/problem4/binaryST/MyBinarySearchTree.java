@@ -1,5 +1,6 @@
 package problem4.binaryST;
 
+import problem1.node.TreeNode;
 import problem4.myqueue.MyQueue;
 
 public class MyBinarySearchTree {
@@ -8,4 +9,7 @@ public class MyBinarySearchTree {
     public MyBinarySearchTree(MyQueue queue) {
         this.myQueue = queue;
     }
+
+    private TreeNode root;
+
 }
