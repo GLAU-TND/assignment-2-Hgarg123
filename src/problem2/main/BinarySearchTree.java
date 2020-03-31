@@ -9,5 +9,11 @@ public class BinarySearchTree {
     private MyQueue preQueue;
     private MyQueue postQueue;
 
+    public void MyBinarySearchTree(MyQueue preQueue, MyQueue postQueue) {
+        this.preQueue = preQueue;
+        this.postQueue = postQueue;
+    }
+
+
 
 }
