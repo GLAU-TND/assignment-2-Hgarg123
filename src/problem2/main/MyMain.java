@@ -17,6 +17,12 @@ public class MyMain {
         MyQueue postQueue = new MyQueue();
         MyBinarySearchTree myBinarySearchTree = new MyBinarySearchTree(preQueue);
 
+        myBinarySearchTree.insert(15);
+        myBinarySearchTree.insert(10);
+        myBinarySearchTree.insert(50);
+        myBinarySearchTree.insert(55);
+        myBinarySearchTree.insert(60);
+
     }
 
 }
