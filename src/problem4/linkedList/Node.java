@@ -1,26 +1,19 @@
-/*
- *  Created by IntelliJ IDEA.
- *  User: Vaibhav
- *  Date: 23-Mar-20
- *  Time: 7:13 PM
- */
-package problem3.node;
+package problem4.linkedList;
 
-import problem3.student.Student;
 public class Node {
-    private Student data;
+    private int data;
     private Node next;
 
-    public Node(Student data) {
+    public Node(int data) {
         this.data = data;
         this.next = null;
     }
 
-    public Student getData() {
+    public int getData() {
         return data;
     }
 
-    public void setData(Student data) {
+    public void setData(int data) {
         this.data = data;
     }
 
